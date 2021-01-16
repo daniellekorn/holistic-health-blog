@@ -6,7 +6,6 @@ import {
   Box,
   Image
 } from '@chakra-ui/react';
-import Footer from './Footer';
 import styled from '@emotion/styled';
 
 const StickyNav = styled(Flex)`
@@ -21,7 +20,6 @@ const Container = ({ children }) => {
   return (
     <>
       <StickyNav
-        class="sticky-nav"
         flexDirection="row"
         justifyContent="space-between"
         alignItems="center"
@@ -62,7 +60,6 @@ const Container = ({ children }) => {
       >
         {children}
       </Flex>
-      <Footer />
     </>
   );
 };
