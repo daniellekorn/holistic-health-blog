@@ -11,6 +11,7 @@
     "@chakra-ui/react": "^1.1.4",
     "@emotion/react": "^11.1.4",
     "@emotion/styled": "^11.0.0",
+    "babel-plugin-import-glob-array": "^0.2.0",
     "framer-motion": "^3.2.1",
     "next": "10.0.5",
     "next-mdx-enhanced": "^5.0.0",
@@ -22,7 +23,9 @@
   },
   "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-plugin-import-glob": "^2.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/daniellekorn/holistic-health-blog.git"
