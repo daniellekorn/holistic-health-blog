@@ -41,7 +41,7 @@ const BlogPost = (frontMatter) => {
             </Flex>
           </Flex>
           <Text color="gray.700">{summary}</Text>
-          <Badge variantColor={topicColors[topic]}>{topic}</Badge>
+          <Badge colorScheme={topicColors[topic]}>{topic}</Badge>
         </Box>
       </Link>
     </NextLink>
