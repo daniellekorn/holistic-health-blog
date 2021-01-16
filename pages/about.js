@@ -10,6 +10,7 @@ import {
   Image
 } from '@chakra-ui/react';
 import Container from '../components/Container';
+import Contact from '../components/Contact';
 
 const url = 'https://holistichealthwomen.com/about';
 const title = 'About Me – Jess ';
@@ -57,6 +58,7 @@ const About = () => {
                 </Text>
               </Box>
             </SimpleGrid>
+            <Contact />
           </Flex>
         </Stack>
       </Container>
