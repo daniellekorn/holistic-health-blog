@@ -7,7 +7,6 @@ module.exports = withMdxEnhanced({
   remarkPlugins: [
     require('remark-autolink-headings'),
     require('remark-slug'),
-    require('remark-code-titles'),
   ],
   extendFrontMatter: {
     process: (mdxContent) => ({
