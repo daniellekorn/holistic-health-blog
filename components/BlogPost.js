@@ -1,6 +1,6 @@
 import React from 'react';
 import NextLink from 'next/link';
-import topicColors from '../utils/topic-colors';
+import topicColors from '../utils/topicColors';
 import { Heading, Text, Flex, Box, Link, Image, Divider, Badge } from '@chakra-ui/react';
 
 const BlogPost = (frontMatter) => {
